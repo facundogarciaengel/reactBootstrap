@@ -79,7 +79,55 @@ return(
                 </Card.Text>
             </Card.Body>
     </Card>
-    
+    <hr></hr>
+    <Card>
+        <Card.Header>Quote</Card.Header>
+        <Card.Body>
+            <blockquote className="blockquote mb-0">
+                <p>
+                    {' '}
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                    posuere erat a ante.{' '}
+                </p>
+                <footer className="blockquote-footer">
+                    Someone famous in <cite title="Source Title">Source Title</cite>
+                </footer>
+            </blockquote>
+        </Card.Body>
+    </Card>
+    <hr></hr>
+    <Card className="text-center">
+        <Card.Header>Featured</Card.Header>
+        <Card.Body>
+            <Card.Title>Special title treatment</Card.Title>
+            <Card.Text>
+                With supporting text below aas a natural lead.in to additional content.
+            </Card.Text>
+            <Button variant="primary">Go somewhere</Button>
+        </Card.Body>
+        <Card.Footer className="text-muted">2 days ago</Card.Footer>
+    </Card>
+<hr></hr>
+    <Card>
+        <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiZV6YgLeNiwO5dA8ISF1jjdUSAkSPy2ng2w&s"/>
+        <Card.Body>
+            <Card.Text>
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+            </Card.Text>
+        </Card.Body>
+    </Card>
+    <br></br>
+    <Card>
+        <Card.Body>
+        <Card.Text className="text-center">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+            </Card.Text>
+        </Card.Body>
+        <Card.Img variant="bottom" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiZV6YgLeNiwO5dA8ISF1jjdUSAkSPy2ng2w&s"/>
+
+    </Card>
     </>
 
 )
